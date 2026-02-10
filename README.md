@@ -2,7 +2,7 @@
 
 🎓 **B.Tech CSE (Cloud Computing & Automation)**  
 🏫 VIT Bhopal University  
-📊 CGPA: **8.82 / 10**
+📊 CGPA: **8.83 / 10**
 
 ---
 
