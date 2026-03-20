@@ -1,4 +1,4 @@
-# 📄 Sarah Thomas – Resume
+# 📄 Sarah Thomas –  Detailed Resume
 
 🎓 **B.Tech CSE (Cloud Computing & Automation)**  
 🏫 VIT Bhopal University  
