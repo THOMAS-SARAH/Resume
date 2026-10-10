@@ -1,57 +1,57 @@
-# Sarah Thomas — Cloud & DevOps Engineer
+# Sarah Thomas — Technical Projects Portfolio
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarah_Thomas-blue?style=flat&logo=linkedin)](https://linkedin.com/in/sarah-thomas-40a301289)
-[![GitHub](https://img.shields.io/badge/GitHub-THOMAS--SARAH-181717?style=flat&logo=github)](https://github.com/THOMAS-SARAH)
-[![Email](https://img.shields.io/badge/Email-sarahtthomas29%40gmail.com-red?style=flat&logo=gmail)](mailto:sarahtthomas29@gmail.com)
-
-Final-year **B.Tech Computer Science student (Specialization in Cloud Computing and Automation)** at Vellore Institute of Technology (CGPA: 8.81/10)[cite: 9]. Focused on Infrastructure as Code (IaC), cloud observability, containerization, and serverless architectures[cite: 9].
+Welcome to my software engineering project repository! This portfolio showcases my work across **AIOps & Incident Automation**, **Machine Learning / Computer Vision**, and **Cloud Infrastructure Telemetry**.
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack Overview
 
-- **Cloud & DevOps:** AWS (Lambda, S3, API Gateway, EC2, IAM, CloudWatch), Docker, Docker Compose, Terraform, Prometheus, CI/CD (GitHub Actions), Boto3 (AWS SDK)[cite: 9]
-- **Languages & Frameworks:** Python, Java, Linux/Bash, FastAPI, REST APIs[cite: 9]
-- **Databases & Tools:** MongoDB, SQL Server, Git, GitHub[cite: 9]
-
----
-
-## 🚀 Featured Projects
-
-### 1. [AI-Driven Cloud Resource & Cost Optimizer](https://github.com/THOMAS-SARAH/multi-region-aws-telemetry-pipeline)
-- **Tech Stack:** Prometheus, Node Exporter, Terraform, AWS, Linux/Bash, FastAPI[cite: 9]
-- **Key Highlights:**
-  - Provisioned multi-region cloud infrastructure using modular Terraform templates[cite: 9].
-  - Engineered a real-time infrastructure telemetry pipeline with Prometheus and Node Exporter to monitor CPU, memory, and system health metrics[cite: 9].
-  - Integrated Prometheus scraping endpoints with a FastAPI backend for rule-based resource optimization and anomaly detection[cite: 9].
-
-### 2. [Serverless Multi-Tenant Configuration Processor](https://github.com/THOMAS-SARAH/aws-serverless-config-processor)
-- **Tech Stack:** AWS Lambda, AWS S3, AWS API Gateway, Python (Boto3), AWS IAM[cite: 9]
-- **Key Highlights:**
-  - Built an event-driven serverless microservice to process and persist multi-tenant SaaS configuration files into AWS S3[cite: 9].
-  - Integrated AWS API Gateway HTTP endpoints with custom IAM execution roles for stateless event routing[cite: 9].
-  - Configured dynamic storage partitioning and structured JSON responses for automated tenant data management[cite: 9].
-
-### 3. [Containerized SaaS System Health Monitor](https://github.com/THOMAS-SARAH/docker_health_monitor)
-- **Tech Stack:** Docker, Docker Compose, FastAPI, Python, REST APIs, Git, GitHub[cite: 9]
-- **Key Highlights:**
-  - Engineered and containerized a REST microservice using FastAPI to monitor SaaS availability and health metrics[cite: 9].
-  - Authored production-ready Dockerfiles and Docker Compose configurations for container networking, port mappings (8000), and dynamic environment variables[cite: 9].
-  - Delivered zero-dependency isolated execution environments across local workstations[cite: 9].
+* **Languages & Frameworks:** Python, Java, FastAPI, REST APIs, Scikit-Learn, OpenCV, Linux/Bash
+* **Cloud & DevOps:** AWS (S3, EC2, Lambda, IAM, CloudWatch), Docker, Terraform, Prometheus, CI/CD (GitHub Actions)
+* **AI & Data Science:** OpenAI API, AIOps, Pandas, NumPy, Matplotlib
 
 ---
 
-## 📜 Certifications
+## Featured Projects
 
-- **ServiceNow University:** Virtual Internship Program[cite: 9]
-- **NPTEL:** Internet of Things, Cloud Computing and Distributed Systems[cite: 9]
-- **AWS Educate:** Introduction to Generative AI[cite: 9]
+### 1.  AI Incident & Log Analysis Assistant
+> **Tech Stack:** Python, FastAPI, OpenAI API, Uvicorn, Pydantic  
+> **Repository:** [`exception_analyzer`](https://github.com/THOMAS-SARAH/exception_analyzer)
+
+* **Overview:** A lightweight RESTful microservice that processes server log traces, stack traces, and system telemetry errors to generate automated Root-Cause Analysis (RCA) reports.
+* **Key Features:**
+  * Ingests multi-line stack traces via POST requests (`/analyze`).
+  * Utilizes structured prompt engineering to output standardized summaries, root cause breakdowns, and actionable remediation steps.
+  * Includes interactive Swagger UI (`/docs`) for seamless API testing and endpoint validation.
+
+---
+
+### 2.  Hybrid Ensemble Model for Enhanced Cancer Cell Classification
+> **Tech Stack:** Python, Scikit-Learn, OpenCV, Pandas, Matplotlib  
+> **Repository:** [`CANCER_CELL_DETECTION`](https://github.com/THOMAS-SARAH/CANCER_CELL_DETECTION)
+
+* **Overview:** A hybrid machine learning pipeline designed to distinguish cancerous from non-cancerous cells in medical imaging data.
+* **Key Features:**
+  * Integrates multiple classification algorithms into a hybrid ensemble model for higher prediction reliability.
+  * Employs advanced OpenCV pre-processing pipelines for image denoising, contrast adjustments, and feature extraction.
+  * Evaluates performance using ROC-AUC curves, confusion matrices, and standard classification metrics.
+
+---
+
+### 3. AI-Driven Cloud Resource & Cost Optimizer
+> **Tech Stack:** Terraform, Prometheus, Node Exporter, FastAPI, AWS, Linux/Bash  
+> **Repository:** [`multi-region-aws-telemetry-pipeline`](https://github.com/THOMAS-SARAH/multi-region-aws-telemetry-pipeline)
+
+* **Overview:** An end-to-end cloud infrastructure monitoring and telemetry pipeline built to track performance metrics and optimize workload health.
+* **Key Features:**
+  * Provisions multi-region AWS cloud infrastructure using modular Terraform templates.
+  * Deploys Prometheus and Node Exporter to scrape real-time CPU, memory, and network throughput data across 2+ simulated cloud instances.
+  * Integrates scraping endpoints with a FastAPI backend to trigger rule-based resource allocation and anomaly detection.
 
 ---
 
 ## 📬 Contact & Links
 
-- **Location:** Bhopal / Sagar, MP, India[cite: 9]
-- **Resume:** Included in this repository (`SarahThomas_LeadSquared.pdf`)[cite: 9]
-- **LinkedIn:** [linkedin.com/in/sarah-thomas-40a301289](https://linkedin.com/in/sarah-thomas-40a301289)[cite: 9]
-- **GitHub:** [github.com/THOMAS-SARAH](https://github.com/THOMAS-SARAH)[cite: 9]
+* **Email:** [saratthomas29@gmail.com](mailto:saratthomas29@gmail.com)
+* **LinkedIn:** [linkedin.com/in/sarah-thomas-40a301289](https://linkedin.com/in/sarah-thomas-40a301289)
+* **GitHub:** [github.com/THOMAS-SARAH](https://github.com/THOMAS-SARAH)
